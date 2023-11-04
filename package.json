@@ -1,0 +1,31 @@
+{
+  "name": "juno",
+  "version": "0.1.45",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.21.0",
+    "@solana/wallet-adapter-wallets": "^0.16.1",
+    "@solana/web3.js": "^1.43.6",
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "bootstrap": "5.2.0-beta1",
+    "bootstrap-icons": "^1.8.3",
+    "core-js": "^3.8.3",
+    "ipfs-http-client": "^57.0.1",
+    "solana-wallets-vue": "^0.3.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0"
+  }
+}
