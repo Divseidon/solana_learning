@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <div id="nav">
     <nav class="navbar navbar-expand-lg bg-light">
@@ -14,8 +16,6 @@
             </li>
           </ul>
         </div>
-
-        <router-link :to="`/courses`" class="px-3"> Courses </router-link>
 
         <div class="d-flex">
           <WalletMultiButton />
@@ -37,7 +37,10 @@
 
 <script>
 import { WalletMultiButton, initWallet } from "solana-wallets-vue";
-import { PhantomWalletAdapter, SolflareWalletAdapter } from "@solana/wallet-adapter-wallets";
+import {
+  PhantomWalletAdapter,
+  SolflareWalletAdapter,
+} from "@solana/wallet-adapter-wallets";
 
 import { useWorkspace } from "@/modules/juno/composables";
 
